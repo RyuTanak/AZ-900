@@ -2,6 +2,8 @@
 
 学習したことをアウトプットしていく  
 
+# Azureの管理とガバナンスに関する問題  
+
 ## Azure AD Identity Protection  
     Azureへのアクセスの際に、セキュリティを高める機能  
     ユーザーのアクセスに様々なポリシーを設定できる  
@@ -33,7 +35,26 @@
 
 ## Azure Advanced Threat Protection(ATP)  
 **現在では「Azure Defender for Identity」という名前に変更された**  
+
     外部からのドメインに対する攻撃を監視するサービス  
 
 【参考】https://juncleit.com/?p=432  
 
+## Azure Defender for Cloud  
+    2021年に「Azure Security Center」と「Azure Defender」が名称を変更して「Azure Defender for Cloud」となった  
+
+    クラウドを利用するにあたって、これまでのオンプレミス環境のセキュリティ対策に
+    以下の3つの観点が必要になった。  
+    1 構成ミスの特定  
+    2 形態の違うシステムの保護  
+    3 IDの保護  
+
+    これらの実現のために注目されているのが以下の二つ  
+    〇Cloud Security Posture Management（GSPM）  
+    　→クラウドの設定ミスを防止  
+    〇Cloud Workload Protection Platform（CWPP）  
+    　→複数のクラウドサービスを一元的に監視・保護  
+
+    Azure Defender for CloudはAzure上でGSPMとCWPPを提供するサービスのこと  
+    
+【参考】https://cloud.nissho-ele.co.jp/blog/defender-for-cloud/  
