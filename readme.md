@@ -43,7 +43,7 @@
 ## Azure Defender for Cloud  
     2021年に「Azure Security Center」と「Azure Defender」が名称を変更して「Azure Defender for Cloud」となった  
 
-    クラウドを利用するにあたって、これまでのオンプレミス環境のセキュリティ対策に
+    クラウドを利用するにあたって、これまでのオンプレミス環境のセキュリティ対策に加えて
     以下の3つの観点が必要になった。  
     1 構成ミスの特定  
     2 形態の違うシステムの保護  
@@ -56,5 +56,41 @@
     　→複数のクラウドサービスを一元的に監視・保護  
 
     Azure Defender for CloudはAzure上でGSPMとCWPPを提供するサービスのこと  
-    
+
 【参考】https://cloud.nissho-ele.co.jp/blog/defender-for-cloud/  
+
+## Azure Policyについて  
+    
+**Azure Policyは適用前の構成には影響を与えない**  
+
+    リソースグループに仮想ネットワーク（VNet）があります。  
+    リソースグループに対して仮想ネットワークの作成・更新が許可されないポリシーを当てても  
+    VNetはそのまま機能し続けます。  
+
+## リソースのロック機能  
+    サブスクリプション、リソースグループ、リソースの単位で以下のロックレベルを付与できる。  
+    〇削除ロック  
+    　削除が出来なくなる。読み取りと変更は可能  
+    〇読み取り専用ロック  
+    　読み取りだけできる。削除と更新が出来なくなる  
+
+## サポートリクエスト  
+    ポータル画面から、ヘルプとサポート機能でサポートリクエストを行うことができる。  
+    また、Azure サポートチケット REST APIを使ってもサポートリクエストを送ることができる  
+
+## Knowledge Center  
+    ※もしかして古い名前？Resource Centerという名前かも  
+
+    Azureに関する一般的な質問とその回答をまとめたもの  
+
+## Azure 料金計算ツール  
+    https://azure.microsoft.com/ja-jp/pricing/calculator/  
+    上記のサイトで、例えば、VMの使うことを仮定し設定項目を入れていったら、その利用料金が分かる  
+    個別のサービスを利用した際の詳細な見積もりに使用  
+
+## Azure TCO 計算ツール  
+    Azureを利用した総コストを見積もるツール  
+    https://azure.microsoft.com/ja-jp/pricing/tco/calculator/  
+
+## Azure Advisor  
+    
