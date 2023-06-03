@@ -32,7 +32,7 @@
     → just in time access  
 
 ## Azure Advanced Threat Protection(ATP)  
-**現在では「Azure Defender for Identity」という名前に変更された**
+**現在では「Azure Defender for Identity」という名前に変更された**  
     外部からのドメインに対する攻撃を監視するサービス  
 
 【参考】https://juncleit.com/?p=432  
